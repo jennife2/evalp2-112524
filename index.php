@@ -33,6 +33,7 @@ body {
 h2 { text-align:center; color:#333; }
 input,button { width:100%; padding:10px; margin:10px 0; border-radius:8px; }
 button { background:#0083b0; color:white; border:none; cursor:pointer; }
+button:hover { background:#006f7f; }
 .error { color:red; text-align:center; }
 img { width:100%; border-radius:10px; margin-top:15px; }
 </style>
@@ -46,7 +47,9 @@ img { width:100%; border-radius:10px; margin-top:15px; }
     <button type="submit">Ingresar</button>
   </form>
   <?php if($error) echo "<p class='error'>$error</p>"; ?>
-  <img src="imagen-login.jpg" alt="Ilustración de login">
+  
+  <!-- Imagen ilustrativa desde URL -->
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mundoprimaria.com%2Frecursos-matematicas%2Ftriangulos&psig=AOvVaw2FopJ6cNRu1OllkhV58XX1&ust=1761153885247000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIDohtHntZADFQAAAAAdAAAAABAE" alt="Ilustración de login">
 </div>
 </body>
 </html>
